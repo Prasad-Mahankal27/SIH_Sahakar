@@ -1,0 +1,164 @@
+
+.card {
+    border: 2px solid #1F7A8C;
+    height: 25vh; 
+    width: 30vh;
+    border-radius: 10px; 
+    background-color: #E1E5F2; 
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-label{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.Task-Manager-Name
+{
+    text-align: center;
+}
+
+.card h1 {
+    color: #022B3A; 
+    font-size: 1.2rem;
+}
+
+.card button {
+    background-color: #466b72; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #022B3A; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards-list {
+    display: flex;
+    gap: 5vh; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    
+    background-color: #F7F9FB;
+}
+
+.gov-logo{
+    height: 60px;
+    width: 150px;
+    padding-left: 1vh;
+}
+
+.notice-bar{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    margin: 3vh 0vh;
+    width: 100vw;
+    height: 4vh;
+    background-color: rgb(219, 218, 218);
+    color: black;
+    scroll-behavior: auto;
+}
+
+.top-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+#logout-but {
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: red;
+    margin-right: 2%;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 1px solid black;
+}
+.Dir_Nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Proj_table{
+    width: 95%;
+}
+td{
+    text-align: center;
+}
+
+.proj-list{
+    height: 300px;
+    overflow-y: scroll;
+}
+.login-main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: url('../public/Images/LoginBack.png') no-repeat ;
+    background-size: contain;
+    width: 80%;
+    height: 70vh;
+
+}
+.login-main form{
+    border-radius: 20px;
+    padding: 50px;
+    border: 2px solid rgb(131, 131, 219);
+    margin: auto;
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.login-main form input{
+    width: 100%;
+    border: 2px solid rgb(101, 101, 146);
+    border-radius: 20px;
+    height: 40px;
+}
+#Submit{
+    background-color: green;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: auto;
+}
+.complaint-nav{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.discuss-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 7fr;
+}
